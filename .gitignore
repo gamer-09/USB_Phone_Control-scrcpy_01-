@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Bundled tools — downloaded by scripts/setup.ps1, not part of the repo
+tools/
+
+# Local app state
+.freebuff/
+
+# Environment / secrets
+.env
+*.token
+
+# Logs and temp files
+*.log
+*.tmp
